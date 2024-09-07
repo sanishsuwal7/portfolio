@@ -41,7 +41,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Implements an optimized Ant Colony Optimization algorithm for the Vehicle Routing Problem, resulting in improved route optimization and enhanced performance.",
-    technologies: ["Python", "Panda", "Matplotlib", "Numpy"],
+    technologies: ["Python", "Pandas", "Matplotlib", "Numpy"],
   },
   {
     title: "Fake Face Generation",
