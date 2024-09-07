@@ -1,76 +1,73 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer and AI researcher with a knack for crafting robust and scalable web applications. I love travelling and creating 🚀 I'm a lifelong learner 🎓 and I might have a thing for traditional Neapolitan Pizza 🍕.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Since my early days at 8 years old, using computers for various stuff has been my passion. It all started with Mario game, where I used to spend most of my days trying to save princess Peach.
+As the digital landscape evolved, so did my skills – from playing games to creating websites with my HTML and CSS abilities.That same drive for creation and design has never left me.
+My journey has taken me through various creative and technical realms – from making websites to learning about algorithm design and also exploring research landscape in AI field.
+I have worked with a variety of technologies, including React, AngularJS, Spring, Node.js, MySQL, MongoDB, AWS and Docker. 
+Outside of coding, I enjoy staying active, exploring new technologies, and cooking tasty food. I'm always up for a talk with a great cup of mocha. A food enthusiast at heart, I'm your go-to for the next potluck.I'm eager to connect and collaborate – reach out!`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Oct 2022 - Present",
+    role: "CADTech Lab Assisstant",
+    company: "Rochester Institute of Technology",
+    description: `Led Tier-0 support for academic and research labs, guaranteeing smooth operational status and prompt issue resolution; implemented regular maintenance checks that minimized downtime by 20% and improved equipment efficiency by 15%. Conducted basic physical and IT troubleshooting for cage equipment, identifying and resolving issues.`,
+    technologies: ["Keyserver", "Workportal", "Papercut", "Jamf", "Helpdesk"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "May 2023 - Dec 2023",
+    role: "FullStack Engineer Intern",
+    company: "Solu Technology Partners",
+    description: `Pioneered the development and maintenance of Angular-based frontend application called Surveytool that helps client companies take surveys for employees and candidates; concurrently, managed Kotlin and Spring backend services to drive system functionality and performance. Independently built the user management system and search filters for search features in Surveytool. Designed and deployed an automated testing suite using Selenium, reducing manual testing time by 40% while increasing test coverage. Engineered and containerized in-house employee management applications using Docker, ensuring consistent environments across development and production; reduced configuration errors by 50%. Leveraged AWS services, including EC2, S3, and RDS, to host and scale applications in the cloud.`,
+    technologies: ["Angular", "Springboot", "Node.js", "MongoDB","Selenium", "Docker", "AWS", "Kotlin", "TypeScript"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Sep 2018 - Jan 2019",
+    role: "Software Engineer Intern",
+    company: "Featherwebs Private Limited",
+    description: `Developed and delivered customized web applications using React Native and PHP and optimized load times by 30%. Orchestrated the development of user interfaces for internal projects using Adobe XD, following in a 40% increase in user engagement. Collaborated with a 4-member team to refine system architecture for internal team-facing platforms, optimizing speed of delivery for client-facing services and projects.`,
+    technologies: ["React Native", "PHP", "MySql", "Adobe XD"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Vehicle Routing Problem",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Implements an optimized Ant Colony Optimization algorithm for the Vehicle Routing Problem, resulting in improved route optimization and enhanced performance.",
+    technologies: ["Python", "Panda", "Matplotlib", "Numpy"],
   },
   {
-    title: "Task Management App",
+    title: "Fake Face Generation",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Implementing a Generative Adversarial Network (GAN) to generate fake faces. The project uses a dataset of 70,000 images of celebrities to train the model.",
+    technologies: ["Python", "GANs", "Pandas", "Numpy", "Matplotlib"],
   },
   {
-    title: "Portfolio Website",
+    title: "Attendance Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Attendance management system that uses facial recognition to automate and improve student attendance tracking. The project integrates Convolutional Neural Networks and a Django-powered system to simplify the process and increase accuracy.",
+    technologies: ["Python", "Django", "React", "CNN", "Bootstrap", "Numpy", "Pandas"],
   },
   {
-    title: "Blogging Platform",
+    title: "Cardiovascular Disease Prediction",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Mobile and web platform that predicts cardiovascular disease risk using AI algorithms. The project integrates React Native and Django frameworks to enhance diagnostic accuracy and improve user engagement.",
+    technologies: ["React Native", "Django", "Python", "Scikit-learn", "MySql"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Rochester, NY 14623",
+  phoneNo: "+1 585 350 6121 ",
+  email: "sanish.suwal7@gmail.com",
 };
