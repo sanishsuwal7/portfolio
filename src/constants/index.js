@@ -5,11 +5,11 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer and AI researcher with a knack for crafting robust and scalable web applications. I love travelling and creating 🚀 I'm a lifelong learner 🎓 and I might have a thing for traditional Neapolitan Pizza 🍕.`;
 
-export const ABOUT_TEXT = `Since my early days at 8 years old, using computers for various stuff has been my passion. It all started with Mario game, where I used to spend most of my days trying to save princess Peach.
-As the digital landscape evolved, so did my skills – from playing games to creating websites with my HTML and CSS abilities.That same drive for creation and design has never left me.
+export const ABOUT_TEXT = `Since my early days at 8 years old, using computers for various stuffs has been my passion. It all started with the Mario game, where I used to spend most of my days trying to save princess Peach.
+As the digital landscape evolved, so did my skills – from playing games to creating websites with my HTML and CSS abilities. That same drive for creation and design has never left me.
 My journey has taken me through various creative and technical realms – from making websites to learning about algorithm design and also exploring research landscape in AI field.
 I have worked with a variety of technologies, including React, AngularJS, Spring, Node.js, MySQL, MongoDB, AWS and Docker. 
-Outside of coding, I enjoy staying active, exploring new technologies, and cooking tasty food. I'm always up for a talk with a great cup of mocha. A food enthusiast at heart, I'm your go-to for the next potluck.I'm eager to connect and collaborate – reach out!`;
+Outside of coding, I enjoy staying active by playing soccer, gym and hiking, exploring new technologies, and cooking tasty food. I'm always up for a talk with a great cup of mocha. A food enthusiast at heart, I'm your go-to for the next potluck. I'm eager to connect and collaborate – reach out!`;
 
 export const EXPERIENCES = [
   {
