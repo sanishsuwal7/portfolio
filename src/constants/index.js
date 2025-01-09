@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer and AI researcher with a knack for crafting robust and scalable web applications. I love travelling and creating 🚀 I'm a lifelong learner 🎓 and I might have a thing for traditional Neapolitan Pizza 🍕.`;
 
@@ -36,6 +37,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Real-time Chat Application",
+    image: project5,
+    description:
+      "A real-time chat application utilizing Socket.io for seamless real-time messaging with dynamic theme switching functionality.",
+    technologies: ["React.js", "Express.js", "Tailwind CSS", "MongoDB"],
+  },
   {
     title: "Vehicle Routing Problem",
     image: project1,
