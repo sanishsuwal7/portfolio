@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer and AI researcher with a knack for crafting robust and scalable web applications. I love travelling and creating 🚀 I'm a lifelong learner 🎓 and I might have a thing for traditional Neapolitan Pizza 🍕.`;
+export const HERO_CONTENT = `I am a passionate Software Engineer and AI researcher with a knack for crafting robust and scalable web applications and research interest in Explainable AI. I love travelling and creating 🚀 I'm a lifelong learner 🎓 and I might have a thing for traditional Neapolitan Pizza 🍕.`;
 
 export const ABOUT_TEXT = `Since I was 8 years old, computers have been my passion. It all started with the Mario game, where I used to spend most of my days trying to save princess Peach.
 As the digital landscape evolved, so did my skills – from playing games to creating websites to exploring research landscape in AI field. That same drive for creation and design has never left me. `
