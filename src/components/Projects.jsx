@@ -27,7 +27,10 @@ const Projects = () => {
                          initial={{opacity: 0, x:100}}
                          transition={{duration: 1}}
                         className="flex flex-wrap w-full max-w-xl lg:w-3/4">
-                        <h6 className="mb-3 font-semibold">{project.title} 
+                        <h6 className="mb-3 font-semibold">{project.title}
+                            {/* {project.title === "Evaluating Post hoc Explanation Methods for Model Training Strategies" && (
+                                <a className="mx-6 font-extrabold text-purple-900" href="https://chatapp-t58c.onrender.com/">Checkout Paper</a>
+                            )} */}
                             {project.title === "Real-time Chat Application" && (
                                 <a className="mx-6 font-extrabold text-purple-900" href="https://chatapp-t58c.onrender.com/">Demo</a>
                             )}
@@ -35,8 +38,9 @@ const Projects = () => {
                         <p className="mb-4 text-neutral-400">{project.description}</p>
 
                         {project.technologies.map((technology, index) => (
-                            <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-small font-medium text-purple-900">{technology}</span>
+                            <span key={index} className="h-[28px] mr-2 mt-4 rounded bg-neutral-900 px-2 text-small font-medium text-purple-900">{technology}</span>
                         ))}
+                    
 
                         {/* {project.title === "Real-time Chat Application" && (
                             <p className="mt-2 text-small font-light">

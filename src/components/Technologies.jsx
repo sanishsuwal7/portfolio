@@ -2,7 +2,7 @@ import {RiReactjsLine} from 'react-icons/ri';
 import {SiSpring} from 'react-icons/si';
 import {SiMongodb} from 'react-icons/si';
 import {FaAngular} from 'react-icons/fa';
-import {FaNodeJs} from 'react-icons/fa';
+import {VscAzure } from 'react-icons/vsc';
 import {FaDocker} from 'react-icons/fa';
 import {FaAws} from 'react-icons/fa';
 import {DiMysql} from 'react-icons/di';
@@ -68,7 +68,7 @@ const Technologies = () => {
                  initial='initial'
                  animate='animate'
                 className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs className='text-7xl text-green-500' />
+                <VscAzure  className='text-7xl text-blue-500' />
             </motion.div >
             <motion.div  
                  variants={iconVariants(4)}

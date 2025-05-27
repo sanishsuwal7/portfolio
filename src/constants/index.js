@@ -3,40 +3,62 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer and AI researcher with a knack for crafting robust and scalable web applications. I love travelling and creating 🚀 I'm a lifelong learner 🎓 and I might have a thing for traditional Neapolitan Pizza 🍕.`;
 
-export const ABOUT_TEXT = `Since my early days at 8 years old, using computers for various stuffs has been my passion. It all started with the Mario game, where I used to spend most of my days trying to save princess Peach.
-As the digital landscape evolved, so did my skills – from playing games to creating websites with my HTML and CSS abilities. That same drive for creation and design has never left me.
-My journey has taken me through various creative and technical realms – from making websites to learning about algorithm design and also exploring research landscape in AI field.
-I have worked with a variety of technologies, including React, AngularJS, Spring, Node.js, MySQL, MongoDB, AWS and Docker. 
-Outside of coding, I enjoy staying active by playing soccer, gym and hiking, exploring new technologies, and cooking tasty food. I'm always up for a talk with a great cup of mocha. A food enthusiast at heart, I'm your go-to for the next potluck. I'm eager to connect and collaborate – reach out!`;
+export const ABOUT_TEXT = `Since I was 8 years old, computers have been my passion. It all started with the Mario game, where I used to spend most of my days trying to save princess Peach.
+As the digital landscape evolved, so did my skills – from playing games to creating websites to exploring research landscape in AI field. That same drive for creation and design has never left me. `
+
+export const ABOUT_TEXT2 = `Outside of coding, I enjoy staying active by playing soccer, gym and hiking, exploring new technologies, and cooking tasty food. I'm always up for a talk with a great cup of mocha. A food enthusiast at heart, I'm your go-to for the next potluck. I'm eager to connect and collaborate – reach out!`;
+
 
 export const EXPERIENCES = [
+  {
+    year: "March 2025 - Present",
+    role: "Software Engineer Associate",
+    company: "IoTFier Inc",
+    description: `Developed reusable React component libraries with high visual accuracy using Storybook and Chromatic, automated CI/CD pipelines for faster deployments, and enabled cross-framework integration with Blazor through TypeScript automation. Improved delivery timelines through effective offshore collaboration and tool evaluation.`,
+    technologies: ["React", "Storybook", "TypeScript", "Azure", "Agile"],
+  },
+  {
+    year: "Aug 2024- Feb 2025",
+    role: "Research Engineer",
+    company: "AI4SEC Research Lab, Rochester Institute of Technology",
+    description: `Developed and optimized deep learning pipelines in Python/PyTorch to evaluate interpretability of image classification models using post-hoc explanation tools (Captum, Quantus) and benchmark datasets. Proposed pruning-based strategies to improve model transparency across architectures like LeNet, VGG-16, and ResNet.`,
+    technologies: ["Quantus", "Captum", "PyTorch", "Python"],
+  },
   {
     year: "Oct 2022 - Present",
     role: "CADTech Lab Assisstant",
     company: "Rochester Institute of Technology",
-    description: `Led Tier-0 support for academic and research labs, guaranteeing smooth operational status and prompt issue resolution; implemented regular maintenance checks that minimized downtime and improved equipment efficiency. Conducted basic physical and IT troubleshooting for cage equipment, identifying and resolving issues.`,
+    description: `Led Tier-0 support for academic research labs, ensuring minimal downtime through proactive maintenance and prompt troubleshooting of both physical and IT issues in lab equipment.`,
     technologies: ["Keyserver", "Workportal", "Papercut", "Jamf", "Helpdesk"],
   },
   {
     year: "May 2023 - Dec 2023",
     role: "FullStack Engineer Intern",
     company: "Solu Technology Partners",
-    description: `Pioneered the development and maintenance of Angular-based frontend application called Surveytool that helps client companies take surveys for employees and candidates; concurrently, managed Kotlin and Spring backend services to drive system functionality and performance. Independently built the user management system and search filters for search features in Surveytool. Designed and deployed an automated testing suite using Selenium, reducing manual testing time by 40% while increasing test coverage. Engineered and containerized in-house employee management applications using Docker, ensuring consistent environments across development and production; reduced configuration errors. Leveraged AWS services, including EC2, S3, and RDS, to host and scale applications in the cloud.`,
+    description: `Built a full-stack web application using Angular and Spring Boot with secure, role-based access. Accelerated development and testing workflows by automating tests with Selenium, containerizing services with Docker, and deploying test suites on AWS EC2.`,
     technologies: ["Angular", "Springboot", "Node.js", "MongoDB","Selenium", "Docker", "AWS", "Kotlin", "TypeScript"],
   },
   {
     year: "Sep 2018 - Jan 2019",
     role: "Software Engineer Intern",
     company: "Featherwebs Private Limited",
-    description: `Developed and delivered customized web applications using React Native and PHP. Orchestrated the development of user interfaces for internal projects using Adobe XD, following in an increase in user engagement. Collaborated with a 4-member team to refine system architecture for internal team-facing platforms, optimizing speed of delivery for client-facing services and projects.`,
+    description: `Developed high-performance cross-platform mobile apps using React Native and Laravel, enhancing user experience across iOS and Android. Improved user satisfaction by 25% through user-centric UI design and streamlined design-to-development workflows.`,
     technologies: ["React Native", "PHP", "MySql", "Adobe XD"],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Evaluating Post hoc Explanation Methods for Model Training Strategies",
+    image: project6,
+    description:
+      "This research provides a comprehensive analysis of post-hoc explanation methods to address the transparency issues of AI models for image classification tasks.",
+    technologies: ["Python", "PyTorch", "Captum", "Quantus"],
+  },
   {
     title: "Real-time Chat Application",
     image: project5,
@@ -75,7 +97,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Rochester, NY 14623",
+  address: "Dallas, TX",
   phoneNo: "+1 585 350 6121 ",
   email: "sanish.suwal7@gmail.com",
 };
