@@ -98,6 +98,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Dallas, TX",
-  phoneNo: "+1 585 350 6121 ",
-  email: "sanish.suwal7@gmail.com",
+  phoneNo: "+1 585 203 0887 ",
+  email: "suwalsanish5@gmail.com",
 };

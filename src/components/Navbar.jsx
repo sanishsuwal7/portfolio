@@ -8,12 +8,12 @@ const Navbar = () => {
             <p className="mx-2 w-10 font-bold tracking-tight lg:mt-8 lg:text-3xl">Ss</p>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <a href={`https://www.linkedin.com/in/sanishsuwal`} target="blank">
+            <a href={`https://www.linkedin.com/in/sanish-suwal`} target="blank">
               <FaLinkedin />
             </a>
-            <a href={`https://github.com/sanishsuwal7`} target="blank">
+            {/* <a href={`https://github.com/sanishsuwal7`} target="blank">
               <FaGithub />
-            </a>
+            </a> */}
         </div>
      </nav> 
   )
