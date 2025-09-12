@@ -12,7 +12,7 @@ const Contact = () => {
       
       <div className="text-center tracking-tighter">
         <p> Looking for my  <a className='font-bold text-xl text-purple-800' href="https://sanish.tiiny.site/"> CV</a> ??</p>
-        <p> Looking for my  <a className='font-bold text-xl text-purple-800' href=""> CV</a> ??</p>
+        {/* <p> Looking for my  <a className='font-bold text-xl text-purple-800' href=""> CV</a> ??</p> */}
         <motion.p 
            whileInView={{opacity: 1, x:0}}
            initial={{opacity: 0, x:-100}}
