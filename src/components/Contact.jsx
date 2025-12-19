@@ -11,7 +11,7 @@ const Contact = () => {
         className="my-10 text-center text-4xl"> Get in Touch</motion.h1>
       
       <div className="text-center tracking-tighter">
-        <p> Looking for my  <a className='font-bold text-xl text-purple-800' href="https://sanish.tiiny.site/"> CV</a> ??</p>
+        <p> Looking for my  <a className='font-bold text-xl text-purple-800' href=""> CV</a> ??</p>
         {/* <p> Looking for my  <a className='font-bold text-xl text-purple-800' href=""> CV</a> ??</p> */}
         <motion.p 
            whileInView={{opacity: 1, x:0}}
@@ -23,7 +23,7 @@ const Contact = () => {
            initial={{opacity: 0, x:100}}
            transition={{duration: 1}}
           className="my-4">{CONTACT.phoneNo}</motion.p>
-        <a href="mailto:suwalsanish5@gmail.com" className="border-b">{CONTACT.email}</a>
+        <a href="mailto:sanish.suwal7@gmail.com" className="border-b">{CONTACT.email}</a>
       </div>
     </div>
   )
